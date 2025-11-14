@@ -33,8 +33,13 @@ Um projeto de um site com todo sistema de autentificação de usuário, e cadast
 <img width="1918" height="924" alt="image" src="https://github.com/user-attachments/assets/cb3acfb8-6ad7-4b21-bc99-da7bd03bdfe4" />
 <img width="1910" height="919" alt="image" src="https://github.com/user-attachments/assets/5f793ba5-7bd8-420e-82f2-79a9f69cd990" />
 <img width="1912" height="923" alt="image" src="https://github.com/user-attachments/assets/97d2e301-2115-4687-aa82-b55138bb2a7d" />
+<img width="1366" height="638" alt="image" src="https://github.com/user-attachments/assets/7c0b2a8c-9969-4812-acf5-e2b1235a0d98" />
 <img width="1914" height="926" alt="image" src="https://github.com/user-attachments/assets/f8951221-44aa-42e5-af1f-1308f4e9b196" />
 <img width="1912" height="927" alt="image" src="https://github.com/user-attachments/assets/f983df60-b684-4e4a-b07f-db4346b6d538" />
+<img width="1366" height="638" alt="image" src="https://github.com/user-attachments/assets/cb6fecee-eb08-43e7-8fc0-44855ace0100" />
+<img width="1366" height="638" alt="image" src="https://github.com/user-attachments/assets/eb04d9c9-367e-444a-bcb8-b3db1bc8d155" />
+<img width="1366" height="639" alt="image" src="https://github.com/user-attachments/assets/d6f31858-35e0-4061-9ae1-780ee1f87ba6" />
+
 
 
 
