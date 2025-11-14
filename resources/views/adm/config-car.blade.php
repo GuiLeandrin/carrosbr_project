@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const href = this.getAttribute('href');
 
             Swal.fire({
-                title: `Realmente deseja excluir esse usuário?`,
+                title: `Realmente deseja excluir esse carro?`,
                 text: "Essa ação não poderá ser desfeita!",
                 icon: 'question',
                 showCancelButton: true,
