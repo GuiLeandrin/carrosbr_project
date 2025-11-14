@@ -1,0 +1,228 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+    overflow: hidden;
+}
+.topBar {
+	height: 100px;
+	width: 100%;
+	background-color: #00022e;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+}   
+.title {
+	margin-left: 25px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+	color: #ffffff;
+	font-family: "Montserrat", sans-serif;
+	cursor: default;
+}
+.title h1, h2 {
+    margin: 0;
+}
+.title a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+.title a:hover {
+    text-decoration: underline;
+    color: #9b9a9a;
+}
+.title i {
+	color: #000000;
+	padding: 10px;
+	padding-top: 21px;
+	padding-bottom: 21px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+	transition: all 0.3s ease;
+}
+.title i:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+.buttons {
+	margin-right: 25px;
+	display: flex;
+	gap: 30px;
+}
+.buttons i {
+	color: #ffffff;
+}
+.buttons button {
+	padding: 0;
+	border: none;
+	color: #ffffff;
+	background: none;
+	cursor: pointer;
+}
+.container {
+    width: 100vw;
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background: linear-gradient(to bottom, #ffffff, #a09f9f);
+}
+.container h1 {
+    margin: 0;
+}
+.profileBox {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 425px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.profileBox:hover {
+	transform: translateY(-10px);
+}
+
+/* ====== MEU PERFIL ====== */
+.showTitle {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #000000;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+.showInfo {
+    color: #575757;
+    font-size: 1rem;
+    line-height: 1.6;
+	margin-left: 42px;
+}
+.showInfo strong {
+	width: 120px;
+	text-align: left;
+}
+.showInfo p {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+/* ====== EDITAR PERFIL ====== */
+.editTitle {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #000000;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+.editMenu {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.editMenu a {
+    color: #000000;
+    transition: all 0.3s ease;
+}
+.editMenu a:hover {
+	color: rgb(182, 182, 182);
+}
+.editMenu h4 {
+    margin: 0;
+}
+.editInfo {
+    color: #575757;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.editButton {
+	border-radius: 8px;
+	background-color: #343a40;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+	border: 0;
+}
+.editButton:hover {
+	background-color: #808080;
+}
+.editForm {
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+    margin-top: 30px;
+}
+.editClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+.editInput {
+	background-color: #eee;
+	border: none;
+	border-radius: 8px;
+	padding: 12px 15px;
+	margin: 8px 0;
+    width: 50%;
+}
+.editLabel {
+    width: 100px;
+}
+
+/* ====== EXCLUIR PERFIL ====== */
+.deleteTitle {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #000000;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+.deleteButton {
+	border-radius: 8px;
+	border: 1px solid #f00505;
+	background-color: #d40000;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.deleteButton:hover {
+	background-color: #f36565;
+    border: 1px solid #fdaaaa;
+}
+.deleteClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+.deleteInput {
+	background-color: #eee;
+	border: none;
+	border-radius: 8px;
+	padding: 12px 15px;
+	margin: 8px 0;
+    width: 50%;
+}

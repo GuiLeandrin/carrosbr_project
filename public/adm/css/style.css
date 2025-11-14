@@ -1,0 +1,403 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.topBar {
+	height: 100px;
+	width: 100%;
+	background-color: #00022e;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+}   
+.title {
+	margin-left: 25px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+	color: #ffffff;
+	font-family: "Montserrat", sans-serif;
+}
+.title h1, h2 {
+    margin: 0;
+}
+.aMenu {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+.aTitle {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+.aMenu:hover {
+    text-decoration: underline;
+    color: #9b9a9a;
+}
+.title i {
+	color: #000000;
+	padding: 10px;
+	padding-top: 21px;
+	padding-bottom: 21px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+	transition: all 0.3s ease;
+}
+.title i:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+.buttons {
+	margin-right: 25px;
+	display: flex;
+	gap: 30px;
+}
+.buttons i {
+	color: #ffffff;
+}
+.buttons button {
+	padding: 0;
+	border: none;
+	color: #ffffff;
+	background: none;
+	cursor: pointer;
+}
+.container {
+    width: 100vw;
+    min-height: calc(100vh - 100px);
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background: linear-gradient(to bottom, #ffffff, #a09f9f);
+}
+
+/* ====== BEM VINDO ====== */
+.txtWelcome {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 35px;
+    transition: all 0.3s ease;
+}
+.txtWelcome i {
+    font-size: 100px;
+}
+.h1Welcome {
+    margin: 0;
+    font-size: 50px;
+}
+.txtWelcome:hover {
+    transform: translateY(-10px);
+}	
+
+/* ====== USUÁRIOS ====== */
+.usersTable {
+    width: 75%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.usersTHead {
+    background-color: #343a40; 
+    color: #fff;
+    text-align: left;
+}
+.usersTh {
+    padding: 12px 15px;
+}
+.usersTr {
+    transition: background-color 0.3s;
+}
+.usersTrInfo {
+    border-bottom: 1px solid #ffffff;
+    transition: background-color 0.3s;
+}
+.usersTrInfo:hover {
+    background-color: #ffffff;
+}
+.usersTd {
+    padding: 12px 15px;
+}
+.usersTdDel {
+    padding: 12px 15px;
+    text-align: center; 
+    width: 50px;
+}
+.usersButton {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+.usersButton:hover {
+    background-color: #808080;
+}
+
+/* ====== CONFIGURAÇÃO CARRO ====== */
+.carTable {
+    width: 75%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.carTHead {
+    background-color: #343a40; 
+    color: #fff;
+    text-align: left;
+}
+.carTh {
+    padding: 12px 15px;
+}
+.carTr {
+    transition: background-color 0.3s;
+}
+.carTrInfo {
+    border-bottom: 1px solid #ffffff;
+    transition: background-color 0.3s;
+}
+.carTrInfo:hover {
+    background-color: #ffffff;
+}
+.carTd {
+    padding: 12px 15px;
+}
+.carTdConfig {
+    padding: 12px 15px;
+    text-align: center; 
+}
+.carTdConfig a {
+    margin: 0 5px;
+}
+.carButtonDel {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+.carButtonDel:hover {
+    background-color: #808080;
+}
+.carButtonEdit {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+.carButtonEdit:hover {
+    background-color: #808080;
+}
+.carContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.carButtonAdd {
+    background-color: #343a40;
+    color: white;
+    width: 75%;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    transition: all 0.3s;
+    margin-bottom: 60px;
+}
+.carButtonAdd:hover {
+    background-color: #808080;
+    transform: translateY(-2px);
+}
+
+/* ====== ADD CARRO ====== */
+.carAddContainer {
+    width: 75%;
+    height: auto;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.2); 
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+.carAddTitle {
+    width: 100%;
+    height: 75%;
+    background-color: #343a40;
+    color: #ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.carAddTitle h1 {
+    margin: 0;
+    font-size: 40px;
+    margin-left: 50px;
+}
+.carAddTitle a {
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.carAddForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px;
+}
+.carAddClass {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+}
+.carAddGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 50%;
+}
+.carAddLabel {
+    font-weight: 600;
+    color: #000000;
+    font-size: 1rem;
+}
+.carAddInput {
+    padding: 10px 14px;
+    background-color: #e7e7e7;
+    border-radius: 6px;
+    border: 0;
+    font-size: 1rem;
+    resize: none;
+}
+.carAddButton {
+    background-color: #343a40;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.carAddButton:hover {
+    background-color: #636262;
+    transform: translateY(-2px);
+}
+
+/* ====== EDIT CARRO ====== */
+.carEditContainer {
+    width: 75%;
+    height: auto;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.2); 
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+.carEditTitle {
+    width: 100%;
+    height: 75%;
+    background-color: #343a40;
+    color: #ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.carEditTitle h1 {
+    margin: 0;
+    font-size: 40px;
+    margin-left: 50px;
+}
+.carEditTitle a {
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.carEditForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px;
+}
+.carEditClass {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+}
+.carEditGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 50%;
+}
+.carEditLabel {
+    font-weight: 600;
+    color: #000000;
+    font-size: 1rem;
+}
+.carEditInput {
+    padding: 10px 14px;
+    background-color: #e7e7e7;
+    border-radius: 6px;
+    border: 0;
+    font-size: 1rem;
+    resize: none;
+}
+.carEditButton {
+    background-color: #343a40;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.carEditButton:hover {
+    background-color: #636262;
+    transform: translateY(-2px);
+}
