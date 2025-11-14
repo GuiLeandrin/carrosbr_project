@@ -1,20 +1,20 @@
 Bem Vindo ao Projeto CARROSBR!!!
 Um projeto de um site com todo sistema de autentificação de usuário, e cadastro e análise de carros para venda!!
 
-1- Como utilizar o projeto:
- ~Baixe o Arquivo .zip do GITHUB.
- ~Extraia ele para onde preferir.
- ~Ligue o Apache e MySQL no XAMPP.
- ~Abra a pasta do projeto pelo VSCODE.
- ~No terminal digite "php artisan migrate".
- ~Escreva "yes" para Criar o BD.
- ~E depois digite "php artisan serve".
- ~Apenas fazendo isso o admin já estará criado e alguns carros para visualização, é só utilizar e avaliar o sistema.
+1- Como utilizar o projeto:</br>
+ ~Baixe o Arquivo .zip do GITHUB.</br>
+ ~Extraia ele para onde preferir.</br>
+ ~Ligue o Apache e MySQL no XAMPP.</br>
+ ~Abra a pasta do projeto pelo VSCODE.</br>
+ ~No terminal digite "php artisan migrate".</br>
+ ~Escreva "yes" para Criar o BD.</br>
+ ~E depois digite "php artisan serve".</br>
+ ~Apenas fazendo isso o admin já estará criado e alguns carros para visualização, é só utilizar e avaliar o sistema.</br></br>
 
-2- Usuário e Senha do Administrador:
- ~Usuário: projeto.carrosbr@gmail.com
- ~Senha: 12345678
- (Ao entrar no sistema é ir na Tela de Login e entrar pelo admin, ele já foi criado pelo banco ao iniciar o projeto.)
+2- Usuário e Senha do Administrador:</br>
+ ~Usuário: projeto.carrosbr@gmail.com</br>
+ ~Senha: 12345678</br>
+ (Ao entrar no sistema é ir na Tela de Login e entrar pelo admin, ele já foi criado pelo banco ao iniciar o projeto.)</br></br>
 
 3- Telas do Sistema:
 <img width="1906" height="924" alt="image" src="https://github.com/user-attachments/assets/9cf9672f-7295-480d-b915-b9531840f9f5" />
