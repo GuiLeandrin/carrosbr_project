@@ -181,6 +181,8 @@ body {
 }
 .carTd {
     padding: 12px 15px;
+    word-break: break-word;
+    white-space: normal;
 }
 .carTdConfig {
     padding: 12px 15px;
@@ -264,6 +266,7 @@ body {
     padding-top: 35px;
     padding-bottom: 35px;
 }
+
 .carAddTitle h1 {
     margin: 0;
     font-size: 40px;
